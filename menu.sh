@@ -31,8 +31,8 @@ read opcion
 	case $opcion in 
 	
 	1)mkdir -p $HOME/EPNro1/entrada
-          mkdir -p $HOME/EPNro1/salida
-          mkdir -p $HOME/EPNro1/procesado
+      mkdir -p $HOME/EPNro1/salida
+      mkdir -p $HOME/EPNro1/procesado
 	  echo " "
 	  echo "-----Entorno creado"
 	  mv $HOME/consolidar.sh $HOME/EPNro1/
